@@ -1,0 +1,23 @@
+@import "./variables_overrides";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.text-tertiary{
+    color:$tertiary ;
+}
+.bg-tertiary{
+    background-color:$tertiary ;
+}
+.inpt-search{
+    width: 300px;
+}
+.bb-tertiary{
+    border-bottom: 2px solid $tertiary;
+}
+.card:hover{
+
+-webkit-box-shadow: -4px 15px 18px -12px rgba(0,0,0,0.21);
+-moz-box-shadow: -4px 15px 18px -12px rgba(0,0,0,0.21);
+box-shadow: -4px 15px 18px -12px rgba(0,0,0,0.21);
+transition: 0.3s;
+cursor: pointer;
+}
